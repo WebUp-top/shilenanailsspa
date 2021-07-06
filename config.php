@@ -30,7 +30,7 @@ if (is_local()) {  //DEV
 
 }
 
-require $VENDOR_DIR6666; // php composer /vendor folder on hosting 
+require $VENDOR_DIR; // php composer /vendor folder on hosting 
 
 
 //----------------------------------------------
