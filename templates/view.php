@@ -121,8 +121,8 @@
 
 
 <script type="module">
-    import Track from './track.js'
-    import Common from './common.js'
+    import Track from './config/track.js'
+    import Common from './config/common.js'
     Quasar.lang.set(Quasar.lang.vi)
 
     const messages = {

@@ -12,7 +12,7 @@ use Psr\Http\Server\RequestHandlerInterface as RequestHandler;
 use Slim\Http\UploadedFile;
 
 
-include "./config.php"; 
+include "./config/config.php"; 
 include "./func.php";
 
 

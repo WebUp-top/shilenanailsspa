@@ -866,7 +866,7 @@
     // global $DEFAULT_LANG; // at footer 
     // $lang = $_SESSION["lang"];
 
-    $layout_file = "layout-".$lang.".json"; 
+    $layout_file = "./config/layout-".$lang.".json"; 
     $string = file_get_contents($layout_file);
     $layout = json_decode($string,true);
 
@@ -932,8 +932,8 @@
 <script src="https://unpkg.com/vue-i18n@8"></script>
 
 <script type="module">
-    import Track from './track.js'
-    import Common from './common.js'
+    import Track from './config/track.js'
+    import Common from './config/common.js'
 
 
     Quasar.lang.set(Quasar.lang.vi)

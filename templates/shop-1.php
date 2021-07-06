@@ -780,8 +780,8 @@
 
 <script type="module">
 
-    import Track from './track.js'
-    import Common from './common.js'
+    import Track from './config/track.js'
+    import Common from './config/common.js'
 
     const messages = {
         en: {
