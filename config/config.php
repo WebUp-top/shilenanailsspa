@@ -16,14 +16,14 @@ $customer = "shilenanailsspa" ; // CHANGE-HERE
 
 if (is_local()) {  //DEV 
     $SUB = '';
-    $VENDOR_DIR = __DIR__ . '/../vendor/autoload.php';
+    $VENDOR_DIR = __DIR__ . '/../../vendor/autoload.php';
 
     $api = 'http://localhost:3001';
     $admin_api = 'http://localhost:3002';
 
 } else {  // PROD 
     $SUB = '/web/shilenanailsspa';
-    $VENDOR_DIR = __DIR__ . '/../../../vendor/autoload.php'; // CHANGE-HERE 
+    $VENDOR_DIR = __DIR__ . '/../../../../vendor/autoload.php'; // CHANGE-HERE 
 
     $api = 'https://api.webup.top'; 
     $admin_api = 'https://module.webup.top'; 
