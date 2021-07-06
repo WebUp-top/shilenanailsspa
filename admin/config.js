@@ -1,7 +1,7 @@
 let isLocal = location.href.includes('localhost')
 
 const API_LOCAL = 'http://localhost:3000'
-const API_SERVER = 'https://api.webup.top'
+const API_SERVER = 'https://api.webup.top'  // CHANGE-HERE
 let API = isLocal ? API_LOCAL : API_SERVER
 
 const WEB_URL = 'https://danhba.top/web/shilenanailsspa' // CHANGE-HERE 

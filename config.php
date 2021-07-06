@@ -22,7 +22,7 @@ if (is_local()) {  //DEV
     $admin_api = 'http://localhost:3002';
 
 } else {  // PROD 
-    $SUB = '/web/shilenanailsspa'
+    $SUB = '/web/shilenanailsspa';
     $VENDOR_DIR = __DIR__ . '/../../../vendor/autoload.php'; // CHANGE-HERE 
 
     $api = 'https://api.webup.top'; 
@@ -71,7 +71,7 @@ function check(){
 }  
 
 function is_local(){
-    return str_contains($_SERVER["HTTP_HOST"],"localhost") ? true : false;
+    return strpos($_SERVER["HTTP_HOST"],"localhost") ? true : false;
 }
 
 
