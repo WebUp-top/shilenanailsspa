@@ -13,7 +13,7 @@ use Slim\Http\UploadedFile;
 
 
 include "./config/config.php"; 
-include "./func.php";
+include "./func.php"; 
 
 
 // ---------------------------------------------  
